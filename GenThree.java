@@ -13,6 +13,6 @@ public class GenThree {
 		System.out.println(Math.round(randomOne));
 		System.out.println(Math.round(randomTwo));
 		System.out.println(Math.round(randomThree));
-		System.out.println("The minimal generated number was: " + Math.round(Math.min(randomOne,Math.min(randomTwo,randomThree))));		
+		System.out.println("The minimal generated number was " + Math.round(Math.min(randomOne,Math.min(randomTwo,randomThree))));		
 	}
 }
