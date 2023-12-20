@@ -10,9 +10,9 @@ public class GenThree {
 		double randomOne = (((max-min) * Math.random()) + min);
 		double randomTwo = (((max-min) * Math.random()) + min);
 		double randomThree = (((max-min) * Math.random()) + min);
-		System.out.println(Math.round(randomOne));
-		System.out.println(Math.round(randomTwo));
-		System.out.println(Math.round(randomThree));
-		System.out.println("The minimal generated number was " + Math.round(Math.min(randomOne,Math.min(randomTwo,randomThree))));		
+		System.out.println((int)(randomOne));
+		System.out.println((int)(randomTwo));
+		System.out.println((int)(randomThree));
+		System.out.println("The minimal generated number was " + (int)(Math.min(randomOne,Math.min(randomTwo,randomThree))));		
 	}
 }
